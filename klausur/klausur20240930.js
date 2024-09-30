@@ -8,15 +8,21 @@ console.log("Aufgabe 1")
 // 1a) 
 // Es soll das Volumen eines Würfels in Quadratzentimeter (cm3) ausgegeben werden. Arbeiten Sie mit einem Objekt und sprechenden Eigenschaften.
 // Geben Sie das Volumen in einem Antwortsatz auf der Konsole aus.
-
+let a=5
+console.log(a*a*a);
+console.log('Das Volumen von dem Würfel beträgt: ' + (a*a*a));
 
 
 
 // 1b 
 // Wenn das Volumen 1000 oder mehr Quadratzentimeter beträgt soll eine Meldung auf der Konsole ausgegeben werden, die besagt,
 // dass das Volumen 1000 oder mehr Quadratzentimeter beträgt.
+let Volumen=1000
 
+if(true){
+    Volumen>1000
 
+}
 
 
 
@@ -32,18 +38,37 @@ console.log("Aufgabe 2")
 
 // 2a)
 // Definieren Sie die class
+class Schueler{
+constructor();{
+
+
+    
+}
+
+    let schueler new Schueler
 
 
 
+   
 // 2b)
 // Deklarieren, Instanziieren und Initialisieren Sie ein Objekt von der Zeignisklasse.
+
+this.Vorname
+this.Nachname
+this.Klasse
+this.Mathenote
+this.Deutschnote
+this.Englischnote
+this.WInote
+this.Wirtschaftsgeographie
+this.BWLnote 
 
 
 
 
 // 2c)
 // Geben Sie die Eigenschaftswerte Ihres Objekts auf der Konsole aus.
-
+Console.log('Vorname: '+ this.Vorname, +'Nachname: '+ this.Nachname, 'Klasse: '+ this.Klasse, 'Mathenote: '+ this.Mathenote, 'Deutschnote: '+ this.Deutschnote, 'Englischnote: '+ this.Englischnote, 'WInote: '+ this.Winote, 'Wirtschaftsgeographienote: '+ this.Wirtschaftsgeographie, 'BWLnote: '+ this.BWLnote);
 
 
 // 2d) NUR KLAUSURSCHREIBER
